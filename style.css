@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(image/tema.jpeg);
+    font-family: 'Playfair Display', serif;
+    overflow-x: hidden;
+}
+
+h1 {
+    margin-top: 80px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+article {
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    border-radius: 100%;
+    margin-bottom: 50px;
+}
+
+table {
+    margin-left: 300px;
+    text-align: justify;
+    margin-bottom: 50px;
+    font-size: 15px;
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+    padding: 5px;
+    overflow: auto;
+    background-color: rgb(161, 182, 169);
+    height: 100vh;
+}
+
+.konten {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.konten p {
+    text-align: center;
+    font-size: 20px;
+}
+
+.konten h2 {
+    margin-top: 40px;
+}
+
+.konten ul li {
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+}
+
+.mbt {
+    margin-bottom: 100px;
+}
+
