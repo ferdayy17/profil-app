@@ -1,11 +1,13 @@
-runtime: php55
+
+runtime: php81
 
 handlers:
-- url: /
-  static_dir: index.php
+- url: /styles
+  static_dir: styles
 
-- url: /index
-  static_dir: index.php
+- url: /images/(.*\.(gif|png|jpg))
+  static_files: images/\1
+  upload: images/(.*\.(gif|png|jpg))
 
 - url: /.*
-  static_dir: index.php
+  script: index.php
